@@ -2,16 +2,23 @@
   --background-color: #ffffff;
 }
 
+ /* Спискам убрать точки */
 .list {
   list-style: none;
   color: #434455;
 }
 
+
+
 .menu-item {
   text-decoration: none;
+  /* text-decoration: none; ПРИБРАТИ ПІДКРЕСЛЕННЯ */
   font-weight: 500;
+  /* font-weight: 500; ТОВЩИНА ШРИФТУ */
   line-height: 1.5;
+  /* line-height: 1.5; МІЖРЯДКОВИЙ ІНТЕРВАЛ */
   letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; ІНТЕРВАЛ МІЖ СИМВОЛАМИ */
   color: #434455;
 }
 
@@ -42,6 +49,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  /* text-transform: uppercase; РЕГІСТР СИМВОЛІВ У ТЕКСТІ */
   color: #4d5ae5;
 }
 
@@ -52,6 +60,7 @@ body {
 
 .address {
   font-style: normal;
+  /* font-style: normal; НАКРЕСЛЕННЯ ТЕКСТУ, НОРМ, КУРСИВ */
 }
 
 .link-adress {
@@ -92,6 +101,7 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  /* cursor: pointer; ТИП ВКАЗІВНИКА МИШІ НА ОБ'ЄКТІ, pointer вказівник, рука */
 }
 .button-service:hover,
 .button-service:focus {
@@ -118,7 +128,9 @@ body {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
+  /* text-align: center; ВИРІВНЮВАННЯ ТЕКСТУ ЗА ГОРИЗОНТАЛЛЮ */
   text-transform: capitalize;
+  /* text-transform: capitalize; РЕГІСТР ТЕКСТУ, CAPITALIZE-перша літера кожного слова перетворюється на ВЕЛИКУ */
   color: #2e2f42;
   letter-spacing: 0.02em;
 }
@@ -144,8 +156,9 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.032em;
+  /* letter-spacing: 0.032em; ІНТЕРВАЛ МІЖ СИМВОЛАМИ */
 }
-/* portfolio */ /* portfolio */ /* portfolio */
+/* portfolio */ /* P-O-R-T-F-O-L-I-O */ /* portfolio */
 
 /* main */
 .button-all {
